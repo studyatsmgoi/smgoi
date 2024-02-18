@@ -19,7 +19,7 @@ export default function SSTDepartment() {
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-          <TeacherProfile name="Pramod"
+          <TeacherProfile name="Pramod Kumar Singh"
             role="Assistant Teacher"
             image="/departments/socialstudies/pramod.webp"
             bio="Pramod, adept assistant teacher in Social Studies at Sankat Mochan Group of Institutions, imparts knowledge with enthusiasm and skill." />

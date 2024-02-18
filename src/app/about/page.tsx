@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Head from "next/head";
 export const metadata: Metadata = {
   title:{
     absolute:"About Us | Sankat Mochan Group Of Institutions | Sultanpur | Uttar Pradesh (U.P.)",

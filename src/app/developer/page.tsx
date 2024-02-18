@@ -1,7 +1,6 @@
 // pages/index.tsx
 import Image from "next/image";
 import Link from "next/link";
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -62,6 +61,7 @@ const SocialMediaIcons = () => {
 
 const developer: React.FC = () => {
   return (
+    <>
     <div className="container mx-auto p-8">
       <div className="text-center mb-4 grid lg:grid-cols-2">
         <Card className="h-auto w-auto m-2 flex justify-center rounded-lg items-center bg-red-500">
@@ -115,6 +115,7 @@ const developer: React.FC = () => {
         </Card>
       </div>
     </div>
+    </>
   );
 };
 

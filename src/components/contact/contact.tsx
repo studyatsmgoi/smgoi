@@ -78,8 +78,8 @@ export default function ContactMe() {
           />
         </svg>
       ),
-      contact: "+91 8960788977",
-      url: "tel:+918960788977",
+      contact: "+91 9198634977",
+      url: "tel:+919198634977",
     },
     {
       icon: (

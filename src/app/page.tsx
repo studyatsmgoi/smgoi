@@ -1,12 +1,13 @@
 import dynamic from "next/dynamic";
-const Hero = dynamic(() => import('@/components/hero/hero'));
-const Statistic = dynamic(() => import('@/components/statistics/statistics'));
-const Desk = dynamic(() => import('@/components/desk/desk'));
+const Hero = dynamic(() => import("@/components/hero/hero"));
+const Statistic = dynamic(() => import("@/components/statistics/statistics"));
+const Desk = dynamic(() => import("@/components/desk/desk"));
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title:{
-    absolute:"Home | Sankat Mochan Group Of Institutions | Sultanpur | Uttar Pradesh (U.P.)",
-  }
+  title: {
+    absolute:
+      "Home | Sankat Mochan Group Of Institutions | Sultanpur | Uttar Pradesh (U.P.)",
+  },
 };
 export default function Home() {
   return (
