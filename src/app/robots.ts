@@ -1,3 +1,5 @@
+// File: robots.ts
+
 import { MetadataRoute } from 'next';
 
 type Robots = {

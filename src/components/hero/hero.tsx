@@ -12,7 +12,7 @@ function Hero() {
   };
   return (
     <>
-      <section className="text-gray-600 bg-yellow-500 body-font">
+      <section className="text-gray-800 bg-yellow-400 body-font bg-opacity-90">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <Image
             src="/hero/hero.webp"
@@ -27,16 +27,16 @@ function Hero() {
               <br className="hidden lg:inline-block" />
               Sultanpur
             </h1>
-            <p className="mb-8 leading-relaxed text-white">
+            <p className="mb-8 leading-relaxed text-gray-900">
               Welcome to Sankat Mochan Group of Institutions! Embrace excellence
               in education with us. Explore a holistic learning environment that
               nurtures minds and shapes futures. For inquiries, admissions, or
-              assistance, contact us at
-              <strong className="text-gray-900">contact@smgoi.com</strong> or
-              call <strong className="text-gray-900">+91 8960788977</strong>.
-              Step into our campus at Kariya Bajhna,Sultanpur,Uttar Pradesh and
-              embark on a journey of knowledge and growth. Your education, your
-              future &hyphen; let&lsquo;s create it together!
+              assistance, contact us at &nbsp;
+              <strong className="text-gray-800">contact@smgoi.com</strong> or
+              call <strong className="text-gray-800">+91 8960788977</strong>.
+              Step into our campus at Kariya Bajhna, Sultanpur, Uttar Pradesh
+              and embark on a journey of knowledge and growth. Your education,
+              your future &hyphen; let&lsquo;s create it together!
             </p>
             <div className="flex justify-center">
               <button
