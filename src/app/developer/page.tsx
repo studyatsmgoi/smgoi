@@ -83,7 +83,7 @@ const developer: React.FC = () => {
               Android, Windows, and Linux application development. As a skilled
               professional, Amit excels in crafting innovative solutions for
               diverse platforms, ensuring seamless user experiences. Explore
-              Amit's profile for a journey through the world of software
+              Amit&lsquo;s profile for a journey through the world of software
               development, where creativity meets precision to bring your
               digital visions to life.
             </p>
@@ -96,13 +96,13 @@ const developer: React.FC = () => {
             <div className="flex flex-col items-center justify-center h-screen bg-red-500 text-white">
               <h1 className="text-4xl font-bold">About Me</h1>
               <p className="text-center">
-                Hello, I'm a coding enthusiast with a penchant for turning lines
+                Hello, I&lsquo;m a coding enthusiast with a penchant for turning lines
                 of code into meaningful and impactful software. My journey as a
                 Software Developer is a fusion of curiosity, problem-solving,
                 and a deep love for elegant solutions. Specializing in Android,
                 Windows, and Linux application development, I thrive on the
                 challenge of creating seamless user experiences across diverse
-                platforms. As a dedicated professional, I don't just write code;
+                platforms. As a dedicated professional, I don&lsquo;t just write code;
                 I craft digital experiences that transcend expectations. Dive
                 into my profile to embark on a voyage through the dynamic world
                 of software development, where every line of code is a
