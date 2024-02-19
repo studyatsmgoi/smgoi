@@ -18,7 +18,7 @@ export default function AboutManager() {
                   mobile={8960788977}
                   email="manager@smgoi.com"
                   image="/management/manager.webp"
-                  address=" Chaure Bazar ,Sultanpur ,Uttar Pradesh ,India ,Pin Code - 228142"
+                  address="Chaure bazar,Ayodhya,Uttar Pradesh,India,Pin Code - 224209"
                   imgalt="Manager Of Sankat Mochan Group Of Institutions"
                 />
               </div>
