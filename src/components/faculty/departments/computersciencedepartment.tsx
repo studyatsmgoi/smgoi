@@ -22,7 +22,15 @@ export default function ComputerScienceDepartment() {
           <TeacherProfile name="Hari Om Narayan"
             role="Assistant Teacher"
             image="/departments/computerscience/hariom.webp"
-            bio="Hari Om Narayan, adept assistant teacher, elevates Sankat Mochan's Computer Science Department with proven qualifications and dedication to excellence." />
+            bio="Introducing Hari Om Narayan, our dynamic computer science pedagogue, igniting student passion with avant-garde methods to excel in technology." />
+        </div>
+      </div>
+      <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <TeacherProfile name="Vaibhav Mishra"
+            role="Assistant Teacher"
+            image="/departments/computerscience/vaibhav.webp"
+            bio="Vaibhav Mishra, dedicated assistant teacher at Sankat Mochan Group, inspires minds, fosters learning, and shapes futures with passion and expertise." />
         </div>
       </div>
     </div>
