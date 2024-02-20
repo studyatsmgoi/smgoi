@@ -27,10 +27,10 @@ export default function SSTDepartment() {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-         <TeacherProfile name="Archana Srivastav"
+         <TeacherProfile name="Archana Srivastava"
             role="Assistant Teacher"
             image="/departments/socialstudies/archana.webp"
-            bio="Archana Srivastav, accomplished assistant teacher in Social Studies at Sankat Mochan Group of Institutions, fosters critical thinking and global awareness." />
+            bio="Archana Srivastava, accomplished assistant teacher in Social Studies at Sankat Mochan Group of Institutions, fosters critical thinking and global awareness." />
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">

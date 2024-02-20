@@ -27,6 +27,14 @@ export default function EnglishDepartment() {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+         <TeacherProfile name="Archana Srivastava"
+            role="Assistant Teacher"
+            image="/departments/english/archana.webp"
+            bio="Meet Archana Srivastava, an esteemed assistant teacher at Sankat Mochan Group of Institutions. Her dedication to education illuminates minds and shapes the future with passion and expertise." />
+        </div>
+      </div>
+      <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
          <TeacherProfile name="Nimi"
             role="Assistant Teacher"
             image="/departments/english/nimi.webp"
