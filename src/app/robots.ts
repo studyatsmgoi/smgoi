@@ -1,4 +1,3 @@
-// File: robots.ts
 
 import { MetadataRoute } from 'next';
 
@@ -26,7 +25,6 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: '/src/',
       },
     ],
     sitemap: 'https://smgoi.com/sitemap.xml',

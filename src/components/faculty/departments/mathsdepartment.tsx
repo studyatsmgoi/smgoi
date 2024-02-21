@@ -27,7 +27,7 @@ export default function MathsDepartment() {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-         <TeacherProfile name="Shiv Kumar"
+         <TeacherProfile name="Shiv Kumar Yadav"
             role="Assistant Teacher"
             image="/departments/mathematics/shivkumar.webp"
             bio="Shiv Kumar, skilled assistant teacher, enriches Sankat Mochan's Mathematics Department with expertise." />

@@ -20,7 +20,7 @@ export default function EnglishDepartment() {
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
           <TeacherProfile name="Shailesh Kumar Pal"
-            role="Assistant Proffessor"
+            role="Assistant Professor"
             image="/departments/english/shailesh.webp"
             bio="Shailesh , skilled assistant proffessor, enriches Sankat Mochan's English Department with expertise, fostering a dynamic and inspiring learning environment." />
         </div>
@@ -67,7 +67,7 @@ export default function EnglishDepartment() {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-          <TeacherProfile name="Khusi Singh"
+          <TeacherProfile name="Khushi Singh"
             role="Assistant Teacher"
             image="/departments/english/khusi.webp"
             bio="Khushi Singh, skilled English Assistant Teacher at Sankat Mochan Group Of Institutions, enriches students with language proficiency and literary appreciation." />

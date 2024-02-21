@@ -78,7 +78,7 @@ const developer: React.FC = () => {
             <h1 className="text-2xl font-bold text-white">
               Software Developer
             </h1>
-            <p className="text-white">
+            <p className="text-black font-medium">
               Meet Amit, a versatile Software Developer with expertise in
               Android, Windows, and Linux application development. As a skilled
               professional, Amit excels in crafting innovative solutions for
@@ -93,9 +93,9 @@ const developer: React.FC = () => {
         </Card>
         <Card className="h-auto w-auto bg-red-500 rounded-lg m-2">
           <CardContent>
-            <div className="flex flex-col items-center justify-center h-screen bg-red-500 text-white">
-              <h1 className="text-4xl font-bold">About Me</h1>
-              <p className="text-center">
+            <div className="flex flex-col items-center justify-center h-screen bg-red-500 text-black">
+              <h1 className="text-4xl font-bold text-white">About Me</h1>
+              <p className="text-center font-medium">
                 Hello, I&lsquo;m a coding enthusiast with a penchant for turning lines
                 of code into meaningful and impactful software. My journey as a
                 Software Developer is a fusion of curiosity, problem-solving,
