@@ -18,7 +18,7 @@ export default function ContactMe() {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
 
-    formData.append("access_key", process.env.NEXT_PUBLIC_WEB_FORM ?? '');
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB_FORM ?? "");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -136,14 +136,16 @@ export default function ContactMe() {
               Let us know how we can help
             </p>
             <p>
-              Feel free to reach out to us at Sankat Mochan Group of Institutions.
-              For inquiries, admissions, or any assistance, contact us at{" "}
-              <strong className="text-yellow-500">contact@smgoi.com</strong> or call{" "}
-              <strong className="text-yellow-500">+91 8960788977</strong>. Our team is here
-              to help you navigate the educational journey with us. Visit our campus at
-              Kariya Bajhna, Sultanpur, Uttar Pradesh to experience firsthand the nurturing
-              environment we offer. We look forward to connecting with you and being a part
-              of your educational aspirations.
+              Feel free to reach out to us at Sankat Mochan Group of
+              Institutions. For inquiries, admissions, or any assistance,
+              contact us at{" "}
+              <strong className="text-yellow-500">contact@smgoi.com</strong> or
+              call <strong className="text-yellow-500">+91 8960788977</strong>.
+              Our team is here to help you navigate the educational journey with
+              us. Visit our campus at Kariya Bajhna, Sultanpur, Uttar Pradesh to
+              experience firsthand the nurturing environment we offer. We look
+              forward to connecting with you and being a part of your
+              educational aspirations.
             </p>
             <div>
               <ul className="mt-6 flex flex-wrap gap-x-10 gap-y-6 items-center">
@@ -153,7 +155,7 @@ export default function ContactMe() {
                     className="flex items-center gap-x-3 hover:text-yellow-500"
                   >
                     <div className="flex-none text-white hover:text-yellow-500">
-                      <Link href={item.url}>{item.icon}</Link>
+                      {item.icon}
                     </div>
                     <Link href={item.url}>
                       <p>{item.contact}</p>
@@ -204,7 +206,7 @@ export default function ContactMe() {
                 <DialogTrigger asChild>
                   <button
                     type="submit"
-                    className="w-full px-4 py-2 text-white font-medium bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-lg duration-150"
+                    className="w-full px-4 py-2 text-white font-medium bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-lg duration-150"
                   >
                     Submit
                   </button>
