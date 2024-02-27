@@ -24,12 +24,12 @@ const SocialMediaIcons = () => {
     {
       name: "Thread",
       icon: "thread.svg",
-      link: "https://thread.net/beamitpal",
+      link: "https://threads.net/beamitpal",
     },
     {
       name: "Youtube",
       icon: "youtube.svg",
-      link: "https://youtube.com/beamitpal",
+      link: "https://youtube.com/@beamitpal",
     },
     {
       name: "Twitter",
