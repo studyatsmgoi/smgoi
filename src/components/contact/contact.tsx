@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -32,13 +31,12 @@ export default function ContactMe() {
       },
       body: json,
     });
+
     const result = await response.json();
     if (result.success) {
-     console.log("Thank You");
+      console.log("Thank You");
     }
   }
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
 
   const contactMethods = [
     {
@@ -127,6 +125,7 @@ export default function ContactMe() {
       url: "https://maps.app.goo.gl/DyHbWwPVJ4AettWbA",
     },
   ];
+
   return (
     <main className="py-14">
       <div className="max-w-screen-xl mx-auto px-4 text-white md:px-8">
@@ -137,17 +136,17 @@ export default function ContactMe() {
               Let us know how we can help
             </p>
             <p>
-              Feel free to reach out to us at Sankat Mochan Group of
-              Institutions. For inquiries, admissions, or any assistance,
-              contact us at <strong className="text-yellow-500">contact@smgoi.com</strong>  or call <strong className="text-yellow-500">+91 8960788977</strong>. Our team
-              is here to help you navigate the educational journey with us.
-              Visit our campus at Kariya Bajhna,Sultanpur,Uttar Pradesh to
-              experience firsthand the nurturing environment we offer. We look
-              forward to connecting with you and being a part of your
-              educational aspirations.
+              Feel free to reach out to us at Sankat Mochan Group of Institutions.
+              For inquiries, admissions, or any assistance, contact us at{" "}
+              <strong className="text-yellow-500">contact@smgoi.com</strong> or call{" "}
+              <strong className="text-yellow-500">+91 8960788977</strong>. Our team is here
+              to help you navigate the educational journey with us. Visit our campus at
+              Kariya Bajhna, Sultanpur, Uttar Pradesh to experience firsthand the nurturing
+              environment we offer. We look forward to connecting with you and being a part
+              of your educational aspirations.
             </p>
             <div>
-              <ul className="mt-6 flex flex-wrap gap-x-10 gap-y-6 items-center ">
+              <ul className="mt-6 flex flex-wrap gap-x-10 gap-y-6 items-center">
                 {contactMethods.map((item, idx) => (
                   <li
                     key={idx}
@@ -167,26 +166,35 @@ export default function ContactMe() {
           <div className="flex-1 mt-12 sm:max-w-lg lg:max-w-md">
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
-                <label className="font-medium">Full name</label>
+                <label className="font-medium" htmlFor="name">
+                  Full name
+                </label>
                 <input
                   type="text"
+                  id="name"
                   name="name"
                   required
                   className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border-2 focus:border-indigo-600 shadow-sm rounded-lg"
                 />
               </div>
               <div>
-                <label className="font-medium">Email</label>
+                <label className="font-medium" htmlFor="email">
+                  Email
+                </label>
                 <input
                   type="email"
+                  id="email"
                   name="email"
                   required
                   className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border-2 focus:border-indigo-600 shadow-sm rounded-lg"
                 />
               </div>
               <div>
-                <label className="font-medium">Message</label>
+                <label className="font-medium" htmlFor="message">
+                  Message
+                </label>
                 <textarea
+                  id="message"
                   required
                   name="message"
                   className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border-2 focus:border-indigo-600 shadow-sm rounded-lg"
@@ -196,7 +204,7 @@ export default function ContactMe() {
                 <DialogTrigger asChild>
                   <button
                     type="submit"
-                    className="w-full px-4 py-2 text-white font-medium bg-red-500 hover:bg-yellow-500 active:bg-yellow-500 rounded-lg duration-150"
+                    className="w-full px-4 py-2 text-white font-medium bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-lg duration-150"
                   >
                     Submit
                   </button>
@@ -210,8 +218,8 @@ export default function ContactMe() {
                   </DialogHeader>
 
                   <DialogFooter>
-                  <DialogClose asChild>
-                    <Button type="submit">Close</Button>
+                    <DialogClose asChild>
+                      <Button type="submit">Close</Button>
                     </DialogClose>
                   </DialogFooter>
                 </DialogContent>
