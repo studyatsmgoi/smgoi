@@ -12,7 +12,7 @@ export interface Metadata extends NextMetadata {
   >;
 }
 export const metadata: Metadata = {
-  metadataBase: new URL('https://smgoi.com'),
+  metadataBase: new URL("https://smgoi.com"),
   title: {
     default:
       "Sankat Mochan Group Of Institutions | Sultanpur | Uttar Pradesh (U.P.)",
@@ -20,7 +20,8 @@ export const metadata: Metadata = {
       "%s | Sankat Mochan Group Of Institutions | Sultanpur | Uttar Pradesh (U.P.)",
   },
   openGraph: {
-    title: "Sankat Mochan Group Of Institutions | Sultanpur | Uttar Pradesh (U.P.)",
+    title:
+      "Sankat Mochan Group Of Institutions | Sultanpur | Uttar Pradesh (U.P.)",
     description:
       "Welcome to Sankat Mochan Group of Institutions, an academic haven situated in the tranquil town of Kariya Bajhna, Sultnapur, Uttar Pradesh, with the zip code 228142. Affiliated with the esteemed Central Board of Secondary Education (CBSE), our institution stands as a symbol of educational excellence, shaping the destinies of young minds.  Immerse yourself in a holistic educational experience against the scenic backdrop of Uttar Pradesh. Sankat Mochan Group of Institutions blends academic prowess, artistic expression, and athletic achievement, crafting a comprehensive learning environment that extends beyond conventional classrooms.  Discover a passion for learning with our dedicated faculty, committed to igniting curiosity, fostering creativity, and encouraging critical thinking. Our campus boasts modern facilities, including well-appointed classrooms, advanced laboratories, and expansive sports fields, ensuring a conducive setting for academic and personal development.  Beyond academic rigor, we emphasize character development, instilling values of compassion, responsibility, and global awareness. As proud affiliates of the CBSE board, our curriculum aligns with national standards, preparing students for a future of academic success and competitive excellence.  Sankat Mochan Group of Institutions is more than just a school\u2014its a community dedicated to unlocking the potential within each student. Join us on this educational journey, where every day presents an opportunity to learn, grow, and thrive. Together, let pave the way for a brighter future, nurturing the leaders and innovators of tomorrow.",
     url: "https://smgoi.com",
@@ -86,10 +87,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-r from-slate-900 to-slate-700">
-        <NavigationBar />
-        <div className="pt-8">{children}</div>
-        <Footer />
+      <body>
+        <div className="bg-gradient-to-r from-slate-900 to-slate-700">
+          <NavigationBar />
+          <div className="pt-8">{children}</div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

@@ -44,7 +44,7 @@ export default function Home() {
 
         <Desk
           who="What Our Principal(Senior's Classes) Says"
-          name="Mr. Jai Prakash Yadav"
+          name="Mr. Jai Prakash Verma"
           role="Principal Of Sankat Mochan Group Of Institutions"
           quote="As the captain of our academic ship, the principal steers Sankat Mochan Group of Institutions towards the shores of excellence. With dedication as their compass, they navigate the seas of education, shaping bright minds and promising futures."
           image="/management/principalofseniors.webp"
